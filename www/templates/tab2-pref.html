@@ -1,0 +1,69 @@
+<ion-view>
+
+    <ion-header-bar align-title="center" class="bar-calm">
+        <h1 class="title">Set Your Preferences</h1>
+    </ion-header-bar>
+
+   	<ion-content class="padding has-header" ng-controller="ProfCtrl">
+	   <ion-list class="list card">
+
+   			<ion-item class="item item-full item-energized">
+               <h3>Hello 9999999999</h3>
+            </ion-item>	   
+
+   			<ion-item class="item">
+  				<ion-checkbox button-small ng-model="filter.yellow"><h4>Include Video</h4></ion-checkbox>
+	   			<ion-checkbox ng-model="filter.blue"><h4>Include Audio</h4></ion-checkbox>
+  				<ion-checkbox ng-model="filter.pink"><h4>Include Webpages</h4></ion-checkbox>
+				<ion-checkbox ng-model="filter.green"><h4>Current Location by default</h4></ion-checkbox>
+   			</ion-item>
+
+   			<ion-item class="item item-full item-energized">
+               <h3>Content listing prefernce (By order)</h3>
+            </ion-item>
+
+			<ion-item class="item item-select item-left">
+                        <select>
+                        <option selected>Language</option>
+                        <option>No of Views</option>
+                        <option>Rating</option>
+                        <option>Price</option>
+                        </select>
+            </ion-item>
+
+			<ion-item class="item item-select item-left">
+						<select>
+                        <option>Language</option>
+                        <option selected>No of Views</option>
+                        <option>Rating</option>
+                        <option>Price</option>
+                        </select>
+            </ion-item>
+
+			<ion-item class="item item-select item-left">
+						<select>
+                        <option>Language</option>
+                        <option>No of Views</option>
+                        <option selected>Rating</option>
+                        <option>Price</option>
+                        </select>
+            </ion-item>
+
+			<ion-item class="item item-select item-left">
+						<select>
+                        <option>Language</option>
+                        <option>No of Views</option>
+                        <option>Rating</option>
+                        <option selected>Price</option>
+                        </select>
+            </ion-item>
+
+			<ion-item class="item">
+   				<a class="button button-small button-energized" href="#/locationMap">Submit</a>
+    			<a class="button button-small button-energized" href="#/tab2">Cancel</a>
+      </ion-item>
+
+ 		</ion-list>
+    </ion-content>
+
+</ion-view>

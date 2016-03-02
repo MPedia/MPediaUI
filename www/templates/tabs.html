@@ -1,0 +1,23 @@
+<!--
+Create tabs with an icon and label, using the tabs-positive style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+<ion-tabs class="tabs-icon-top tabs-color-active-positive">
+
+  <!-- Video Tab -->
+  <ion-tab title="Videos" icon-off="ion-videocamera" icon-on="ion-videocamera" href="#/tabs/vdeo">
+    <ion-nav-view name="tabs-vdeo"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Audio Tab -->
+  <ion-tab title="Audios" icon-off="ion-headphone" icon-on="ion-headphone" href="#/tabs/adio">
+    <ion-nav-view name="tabs-adio"></ion-nav-view>
+  </ion-tab>
+
+  <!-- Pages Tab -->
+  <ion-tab title="Pages" icon-off="ion-android-globe" icon-on="ion-android-globe" href="#/tabs/wpage">
+    <ion-nav-view name="tabs-wpage"></ion-nav-view>
+  </ion-tab>
+
+</ion-tabs>

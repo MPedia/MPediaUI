@@ -1,0 +1,32 @@
+<ion-view>
+
+    <ion-header-bar align-title="center" class="bar-calm">
+        <h1 class="title">Sign-In</h1>
+    </ion-header-bar>
+
+   	<ion-content class="padding has-header" ng-controller="State2Ctrl">
+
+	   <ion-list class="list card">
+ 		   		
+ 			<ion-item class="item item-input">
+ 			<input type="tel" placeholder="Mobile Number" ng-model="mobilenumber">
+ 			</ion-item>  	
+
+ 			<ion-item class="item item-input">
+ 			<input type="password" placeholder="Password" ng-model="passwd">
+ 			</ion-item>  	
+
+			<ion-item class="item">
+   				<a class="button button-small button-energized" href="#/locationMenu">Log In</a>
+    			<a class="button button-small button-energized" href="#/home">Cancel</a>
+   		</ion-item>
+
+ 		</ion-list>
+
+   </ion-content>
+
+   <ion-footer-bar align-title="center" class="bar-calm">
+        <h1 class="title">Copyright &#xA9; 2015</h1>
+    </ion-footer-bar>
+
+</ion-view>

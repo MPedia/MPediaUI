@@ -1,0 +1,43 @@
+<ion-view>
+
+    <ion-header-bar align-title="center" class="bar-calm">
+        <h1 class="title">Sign-Up</h1>
+    </ion-header-bar>
+
+   	<ion-content class="padding has-header" ng-controller="State1Ctrl">
+
+	   <ion-list class="list card">
+ 		
+ 			<ion-item class="item item-avatar">
+			<img src="img/2.png">	
+      <p>Hello </p> 
+      <p>{{currentPlatform}} User!</p>
+			</ion-item>  	
+   		
+ 			<ion-item class="item item-input">
+ 			<input type="tel" placeholder="Mobile Number" ng-model="mobilenumber">
+ 			</ion-item>  	
+
+ 			<ion-item class="item item-input">
+ 			<input type="password" placeholder="Password (Optional)" ng-model="passwd">
+ 			</ion-item>  	
+
+      <ion-item class="item item-input">
+      <ion-google-place placeholder="Home Location" ng-model="location"></ion-google-place>
+      <input type="text" {{location}}>
+      </ion-item> 
+
+			<ion-item class="item">
+   				<a class="button button-small button-energized" href="#/SignUpVerify">Generate OTP</a>
+    			<a class="button button-small button-energized" href="#/home">Cancel</a>
+      </ion-item>
+
+ 		</ion-list>
+
+   </ion-content>
+
+   <ion-footer-bar align-title="center" class="bar-calm">
+        <h1 class="title">Copyright &#xA9; 2015</h1>
+    </ion-footer-bar>
+
+</ion-view>
